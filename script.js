@@ -13,7 +13,7 @@ let cookies = Object.fromEntries(
 	document.cookie.split("; ").
 	map((item)=>item.split("=")));
 
-document.getElementById("fontsize").value = cookies.fontsize??0;
-document.getElementById("fontcolor").value = cookies.fontcolor??"#000";
+document.getElementById("fontsize").value = cookies.fontsize??16;
+document.getElementById("fontcolor").value = cookies.fontcolor??"#000000";
 
 
